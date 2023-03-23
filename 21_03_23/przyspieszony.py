@@ -59,10 +59,6 @@ def zad2():
     # Kwadraty parzystych
     squares = tuple([n ** 2 for n in liczby if n % 2 == 0])
 
-    '''
-    NIE SKOŃCZONE!
-    '''
-
     def zamiana(lista):
         if not lista:
             return []
