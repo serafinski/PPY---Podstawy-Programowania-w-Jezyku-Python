@@ -1,3 +1,5 @@
+# TOMASZ SERAFINSKI s24353, Grupa: 12c
+
 # ZAD 1
 def zad1():
     for i in range(1, 21):

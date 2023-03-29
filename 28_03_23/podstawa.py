@@ -1,3 +1,5 @@
+# TOMASZ SERAFINSKI s24353, Grupa: 12c
+
 # ZAD 1
 def zad1():
     liczba = int(input("Wprowadź liczbę: "))

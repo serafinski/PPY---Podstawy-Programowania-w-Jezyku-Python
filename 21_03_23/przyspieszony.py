@@ -1,4 +1,4 @@
-# TOMASZ SERAFIŃSKI s24353, Grupa: 12c
+# TOMASZ SERAFINSKI s24353, Grupa: 12c
 
 
 # ZAD 1

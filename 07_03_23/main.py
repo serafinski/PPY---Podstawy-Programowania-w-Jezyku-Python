@@ -1,26 +1,26 @@
-#TOMASZ SERAFINSKI s24353, Grupa: 12c
+# TOMASZ SERAFINSKI s24353, Grupa: 12c
 
-#ZADANIE1
+# ZADANIE 1
 def zad1():
     liczba1 = input("Wprowadz pierwsza liczbe: \n")
     operacja = input("Wprowadz znak operacji: \n")
-    liczba2 =input("Wprowadz druga liczbe: \n")
+    liczba2 = input("Wprowadz druga liczbe: \n")
     print()
 
     if operacja == "+":
-        print(int(liczba1)+int(liczba2))
+        print(int(liczba1) + int(liczba2))
     elif operacja == "-":
-        print(int(liczba1)-int(liczba2))
+        print(int(liczba1) - int(liczba2))
     elif operacja == "*":
-        print(int(liczba1)*int(liczba2))
+        print(int(liczba1) * int(liczba2))
     elif operacja == "/":
-        print(int(liczba1)/int(liczba2))
+        print(int(liczba1) / int(liczba2))
     else:
         print("Wprowadzono nieprawidlowa operacje!")
 
-#ZADANIE 2
-def zad2():
 
+# ZADANIE 2
+def zad2():
     imie = input("Wprowadz imie:\n")
     while not imie.isalpha():
         print("Prosze wprowadzic ciag znakow!")
@@ -59,7 +59,7 @@ print("Zadanie 1 - wpisz 1\nZadanie 2 - wpisz 2\n")
 decyzja = input("Twoja decyzja: ")
 if int(decyzja) == 1:
     zad1()
-elif int(decyzja) ==2:
+elif int(decyzja) == 2:
     zad2()
 else:
     print("Nie wprowadzono poprawnej opcji!")

@@ -1,4 +1,4 @@
-# Tomasz Serafiński s24535 - Grupa 12c
+# TOMASZ SERAFINSKI s24353, Grupa: 12c
 
 # ZADANIE 1
 import math
