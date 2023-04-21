@@ -1,3 +1,5 @@
+# TOMASZ SERAFINSKI s24353, Grupa: 12c
+
 def zad1(a, b):
     a = float(a)
     b = float(b)
