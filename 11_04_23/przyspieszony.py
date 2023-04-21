@@ -1,3 +1,5 @@
+# TOMASZ SERAFINSKI s24353, Grupa: 12c
+
 from math import factorial
 
 
