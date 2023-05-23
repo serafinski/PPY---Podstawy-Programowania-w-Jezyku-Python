@@ -1,26 +1,65 @@
-import calendar as cl
-from datetime import datetime
-import re
+# TOMASZ SERAFIŃSKI s24353, Grupa: 12c
+
+# ZAD 1
+def wypisz_imie_i_wiek(imie, wiek):
+    print("Imię:", imie)
+    print("Wiek:", wiek)
+
+
+# ZAD 2
+def func1(*args):
+    for arg in args:
+        print("Wartość:", arg)
+
+
+# ZAD 3
+def obliczanie(x, y):
+    dodawanie = x + y
+    odejmowanie = x - y
+    return dodawanie, odejmowanie
+
+
+# ZAD 4
+def show_employee(nazwisko, wynagrodzenie=9000):
+    print("Nazwisko:", nazwisko)
+    print("Wynagrodzenie:", wynagrodzenie)
+
+
+# ZAD 5
+def pole(a, b):
+    pole = a * b
+    return pole
+
+
+# ZAD 6
+def trojkapitagorejska(a, b, c):
+    if a ** 2 + b ** 2 == c ** 2:
+        return True
+    else:
+        return False
+
 
 if __name__ == "__main__":
     # ZAD 1
-    print(cl.calendar(2023))
+    wypisz_imie_i_wiek("Tomasz", 24)
 
     # ZAD 2
-    print(cl.month(2020, 6))
+    func1("Test", 1999, True)
 
     # ZAD 3
-    data1 = datetime(2023, 6, 1)
-    data2 = datetime(2023, 7, 18)
-    roznca = data2 - data1
-    print(roznca)
+    zad3 = obliczanie(4, 2)
+    print("Dodawanie:", zad3[0])
+    print("Odejmowanie:", zad3[1])
 
     # ZAD 4
-    string = "Python 3.11"
-    wynik = re.findall(r'\d', string)
-    print(wynik)
+    show_employee("Serafinski")
 
     # ZAD 5
-    string_zad5 = '!@#$%^&45ssewerffffwc'
-    wynik_zad5 = re.findall(r'\w', string_zad5)
-    print(wynik_zad5)
+    print(pole(2, 10))
+
+    # ZAD 6
+    a = float(input("Wprowadź a: "))
+    b = float(input("Wprowadź b: "))
+    c = float(input("Wprowadź c: "))
+    zad6 = trojkapitagorejska(a,b,c)
+    print(zad6)
