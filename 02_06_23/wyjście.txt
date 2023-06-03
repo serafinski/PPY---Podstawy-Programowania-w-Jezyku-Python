@@ -1,0 +1,2 @@
+Nazwa pliku: wejœcie.txt.
+Liczba linii: 20
